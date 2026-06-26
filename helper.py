@@ -31,3 +31,10 @@ def register_new_courier_and_return_login_password():
 
     return login_pass
 
+
+def generate_courier_payload():
+    return {        
+        'login': ''.join(random.choice(string.ascii_lowercase) for _ in range(10)),
+        'password':''.join(random.choice(string.ascii_lowercase) for _ in range(10)),
+        'firstName': ''.join(random.choice(string.ascii_lowercase) for _ in range(10)),
+        }
