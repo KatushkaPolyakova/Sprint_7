@@ -13,6 +13,5 @@ COLORS = [
     ["BLACK"],
     ["GREY"],
     ["BLACK", "GREY"],
-    []
 ]
 
